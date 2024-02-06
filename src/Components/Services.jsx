@@ -63,7 +63,8 @@ const Services = () => {
                     tempus eget gravida natoque.
                   </Card.Body>
                   <div className="">
-                    <FaStar /> <FaStar /> <FaStar /> <FaStar />
+                    <FaStar className="star" /> <FaStar className="star" />{" "}
+                    <FaStar className="star" /> <FaStar className="star" />
                   </div>
                 </Card>
               </Carousel.Item>
@@ -79,7 +80,8 @@ const Services = () => {
                     tempus eget gravida natoque.
                   </Card.Body>
                   <div className="">
-                    <FaStar /> <FaStar /> <FaStar /> <FaStar />
+                    <FaStar className="star" /> <FaStar className="star" />{" "}
+                    <FaStar className="star" /> <FaStar className="star" />
                   </div>
                 </Card>
               </Carousel.Item>
@@ -94,7 +96,8 @@ const Services = () => {
                     tempus eget gravida natoque.
                   </Card.Body>
                   <div className="">
-                    <FaStar /> <FaStar /> <FaStar /> <FaStar />
+                    <FaStar className="star" /> <FaStar className="star" />{" "}
+                    <FaStar className="star" /> <FaStar className="star" />
                   </div>
                 </Card>
               </Carousel.Item>

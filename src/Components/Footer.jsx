@@ -70,14 +70,14 @@ const Footer = () => {
           </Col>
           <Col md={3} className="mb-3">
             <h6>NEWSLETTER</h6>
-            <Form className="d-flex">
+            <Form className="d-flex mb-4">
               <Form.Control
                 type="search"
                 placeholder="Search"
                 className="me-2"
                 aria-label="Search"
               />
-              <Button variant="outline-success">Search</Button>
+              <Button variant="outline-secondary">Search</Button>
             </Form>
           </Col>
         </Row>

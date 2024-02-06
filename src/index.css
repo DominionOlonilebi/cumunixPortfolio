@@ -158,6 +158,9 @@ text-align: center;
 border: transparent;
 margin-bottom: 30px;
 }
+.services_container .card-fluid .star{
+  color: rgb(255, 91, 32);
+}
 .services_container .testify_text{
   font-size: 14px;
   line-height: 23px;
