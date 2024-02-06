@@ -20,21 +20,21 @@ const Signup = () => {
                 <input
                   type="text"
                   id="name"
-                  className="form-control my-4 py-3"
+                  className="form-control my-4 "
                   required
                   placeholder="Full Name"
                 />
                 <input
                   type="email"
                   id="email"
-                  className="form-control my-4 py-3"
+                  className="form-control my-4 "
                   required
                   placeholder="Email"
                 />
                 <input
                   type="password"
                   id="password"
-                  className="form-control my-4 py-3"
+                  className="form-control my-4 "
                   required
                   placeholder="Password"
                 />
