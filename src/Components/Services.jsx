@@ -1,9 +1,10 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import { Card, Carousel, Col, Container, Row } from "react-bootstrap";
 import {
   FaArrowRight,
   FaLongArrowAltLeft,
   FaLongArrowAltRight,
+  FaStar,
 } from "react-icons/fa";
 
 const Services = () => {
@@ -11,7 +12,7 @@ const Services = () => {
     <div>
       <Container className="services_container">
         <Row>
-          <Col md={6}>
+          <Col md={6} className="mb-4">
             <h1>WELCOME</h1>
             <h5>TO OUR COMPANY SITE</h5>
             <h4>A PLACE OF EXCELLENCE & QUALITY SERVICE</h4>
@@ -24,7 +25,7 @@ const Services = () => {
               feugiat vivamus at augue.{" "}
             </p>
           </Col>
-          <Col md={3}>
+          <Col md={3} className="mb-4">
             <h3>KEY SERVICES</h3>
             <h6>
               <FaArrowRight className="faarrow" /> &nbsp; COMPUTER SUPPORT{" "}
@@ -48,13 +49,56 @@ const Services = () => {
               <FaArrowRight className="faarrow" /> &nbsp; HOSTED EXCHANGE{" "}
             </h6>
           </Col>
-          <Col md={3}>
-            <h3 className="mb-4">TESTIMONIAL</h3>
-            <p className="mb-4 bg-light py-3">
-              Accumsan in nisl nisi scelerisque eu. Habitant morbi tristique
-              senectus et netus. Malesuada turpis egestas sed tempus eget
-              gravida natoque.
-            </p>
+          <Col md={3} className="mb-4">
+            <h3 className="mb-3">TESTIMONIAL</h3>
+            <Carousel slide>
+              <Carousel.Item>
+                <Card className="card-fluid py-2">
+                  <h6 className="">
+                    <strong>GRACE PAUL</strong>
+                  </h6>
+                  <Card.Body className="testify_text">
+                    Accumsan in nisl nisi scelerisque eu. Habitant morbi
+                    tristique senectus et netus. Malesuada turpis egestas sed
+                    tempus eget gravida natoque.
+                  </Card.Body>
+                  <div className="">
+                    <FaStar /> <FaStar /> <FaStar /> <FaStar />
+                  </div>
+                </Card>
+              </Carousel.Item>
+
+              <Carousel.Item>
+                <Card className="card-fluid py-2">
+                  <h6 className="">
+                    <strong>LOVE BRENDA</strong>
+                  </h6>
+                  <Card.Body className="testify_text">
+                    Accumsan in nisl nisi scelerisque eu. Habitant morbi
+                    tristique senectus et netus. Malesuada turpis egestas sed
+                    tempus eget gravida natoque.
+                  </Card.Body>
+                  <div className="">
+                    <FaStar /> <FaStar /> <FaStar /> <FaStar />
+                  </div>
+                </Card>
+              </Carousel.Item>
+              <Carousel.Item>
+                <Card className="card-fluid py-2">
+                  <h6 className="">
+                    <strong>BLESSING CHUKS</strong>
+                  </h6>
+                  <Card.Body className="testify_text">
+                    Accumsan in nisl nisi scelerisque eu. Habitant morbi
+                    tristique senectus et netus. Malesuada turpis egestas sed
+                    tempus eget gravida natoque.
+                  </Card.Body>
+                  <div className="">
+                    <FaStar /> <FaStar /> <FaStar /> <FaStar />
+                  </div>
+                </Card>
+              </Carousel.Item>
+            </Carousel>
             <FaLongArrowAltRight className="longarrow" />{" "}
             <span>
               <FaLongArrowAltLeft className="longarrows" />{" "}

@@ -7,7 +7,7 @@ const Footer = () => {
     <div>
       <Container fluid className="footers">
         <Row>
-          <Col md={3}>
+          <Col md={3} className="mb-3">
             <h6>NAVIGATION</h6>
             <p>
               <FaArrowRight className="bg-secondary" /> &nbsp; Home{" "}
@@ -28,7 +28,7 @@ const Footer = () => {
               <FaArrowRight className="bg-secondary" /> &nbsp; Contact{" "}
             </p>
           </Col>
-          <Col md={3}>
+          <Col md={3} className="mb-3">
             <h6>POPULAR</h6>
             <p>
               <FaArrowRight className="bg-secondary" /> &nbsp; consectetur
@@ -50,7 +50,7 @@ const Footer = () => {
               <FaArrowRight className="bg-secondary" /> &nbsp; Elit eget gravida{" "}
             </p>
           </Col>
-          <Col md={3}>
+          <Col md={3} className="mb-3">
             <h6>SOCIAL PAGES</h6>
             <p>
               <FaArrowRight className="bg-secondary" /> &nbsp; Twitter{" "}
@@ -68,7 +68,7 @@ const Footer = () => {
               <FaArrowRight className="bg-secondary" /> &nbsp; RSS{" "}
             </p>
           </Col>
-          <Col md={3}>
+          <Col md={3} className="mb-3">
             <h6>NEWSLETTER</h6>
             <Form className="d-flex">
               <Form.Control

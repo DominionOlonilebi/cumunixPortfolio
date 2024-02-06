@@ -7,6 +7,7 @@ import { Col, Container, Row } from "react-bootstrap";
 const Cards = () => {
   return (
     <Container fluid className="cards_container">
+      <h2>THE COMPANY'S MAJOR DEPARTMENT</h2>
       <Row>
         <Col md={3}>
           <Card className="cards">
@@ -19,7 +20,9 @@ const Cards = () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </Card.Text>
-              <Button className="cards_button bg-dark border-0">MORE</Button>
+              <Button className="cards_button bg-dark border-0">
+                READ MORE
+              </Button>
             </Card.Body>
           </Card>
         </Col>
@@ -34,7 +37,9 @@ const Cards = () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </Card.Text>
-              <Button className="cards_button bg-dark border-0">MORE</Button>
+              <Button className="cards_button bg-dark border-0">
+                READ MORE
+              </Button>
             </Card.Body>
           </Card>
         </Col>
@@ -49,7 +54,9 @@ const Cards = () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </Card.Text>
-              <Button className="cards_button bg-dark border-0">MORE</Button>
+              <Button className="cards_button bg-dark border-0">
+                READ MORE
+              </Button>
             </Card.Body>
           </Card>
         </Col>
@@ -64,7 +71,9 @@ const Cards = () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </Card.Text>
-              <Button className="cards_button bg-dark border-0">MORE</Button>
+              <Button className="cards_button bg-dark border-0">
+                READ MORE
+              </Button>
             </Card.Body>
           </Card>
         </Col>
