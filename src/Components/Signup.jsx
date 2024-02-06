@@ -12,7 +12,7 @@ const Signup = () => {
       <Navbars />
       <Container fluid className="signup_container">
         <Row className="d-flex flex-row justify-content-center">
-          <Col md={7}>
+          <Col md={6}>
             <div className="signup">
               <h1>Sign Up</h1>
 
@@ -20,28 +20,28 @@ const Signup = () => {
                 <input
                   type="text"
                   id="name"
-                  className="form-control my-4 "
+                  className="form-control my-4 py-2"
                   required
                   placeholder="Full Name"
                 />
                 <input
                   type="email"
                   id="email"
-                  className="form-control my-4 "
+                  className="form-control my-4 py-2"
                   required
                   placeholder="Email"
                 />
                 <input
                   type="password"
                   id="password"
-                  className="form-control my-4 "
+                  className="form-control my-4 py-2"
                   required
                   placeholder="Create Password"
                 />
                 <input
                   type="password"
                   id="password"
-                  className="form-control my-4 "
+                  className="form-control my-4 py-2"
                   required
                   placeholder="Confirm Password"
                 />
